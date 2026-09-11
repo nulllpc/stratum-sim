@@ -1,0 +1,9 @@
+[package]
+name = "sv2-compiler"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+sv2-ir = { path = "../sv2-ir" }
+stratum-core = "0.5.1"

@@ -1,0 +1,7 @@
+[package]
+name = "sv2-ir"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]

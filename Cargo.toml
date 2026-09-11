@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "sv2-ir",
+    "sv2-compiler",
+    "sv2-executor",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["NPC <nulllpc@pm.me>"]
+

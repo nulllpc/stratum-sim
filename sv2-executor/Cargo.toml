@@ -1,0 +1,13 @@
+[package]
+name = "sv2-executor"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+sv2-ir = { path = "../sv2-ir" }
+sv2-compiler = { path = "../sv2-compiler" }
+stratum-core = "0.5.1"
+tokio = { version = "1.44", features = ["full"] }
+bs58 = { version = "0.5", features = ["check"] }
+hex = "0.4"
